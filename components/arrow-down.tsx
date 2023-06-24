@@ -8,7 +8,7 @@ export default function ArrowDown() {
         alt='launcher logo'
         width={24}
         height={13}
-        className='duration-500 animate-bounce'
+        className='duration-500  animate-bounce'
       />
     </>
   );
