@@ -11,6 +11,7 @@ const bicubik = localFont({
 
 export const metadata = {
   title: 'The Vorld',
+  description: 'Vorld + NEXT + TS + Tailwind CSS',
 };
 
 export default function RootLayout({
