@@ -36,23 +36,23 @@ export default function Cta({
           alt='icon'
           className='h-14 w-max'
         />
-        <Text className='my-6 text-sm'>{desc}</Text>
+        <Text className='max-w-md my-6 text-sm'>{desc}</Text>
         <CtaBtns />
       </div>
       <div className={cn('relative', { 'order-first': rtl })}>
+        <Image
+          src={`/images/cloud/cloud-${rtl ? 3 : 2}.svg`}
+          alt='cloud'
+          className='absolute inset-0 -z-10'
+          width={400}
+          height={400}
+        />
         <Image
           src={image}
           width={400}
           height={700}
           alt='icon'
           className='mx-auto w-60'
-        />
-        <Image
-          src={'/images/cloud/cloud-3.svg'}
-          alt='cloud'
-          className='absolute inset-0 -z-10'
-          width={400}
-          height={400}
         />
       </div>
     </div>

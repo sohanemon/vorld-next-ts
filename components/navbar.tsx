@@ -8,7 +8,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className='flex items-center justify-between pt-3 shadow-2xl box-full shadow-theme-sky/20'>
+    <nav className='flex items-center justify-between pt-3 shadow-2xl box-full !min-h-min shadow-theme-sky/20'>
       <Image
         src={'/images/logo.svg'}
         alt='logo'
