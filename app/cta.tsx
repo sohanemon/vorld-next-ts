@@ -39,7 +39,7 @@ export default function Cta({
         <Text className='my-6 text-sm'>{desc}</Text>
         <CtaBtns />
       </div>
-      <div className='relative'>
+      <div className={cn('relative', { 'order-first': rtl })}>
         <Image
           src={image}
           width={400}

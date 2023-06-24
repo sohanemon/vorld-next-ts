@@ -12,6 +12,7 @@ export default function Home() {
         image='/images/phone-2.png'
       />
       <Cta
+        rtl
         desc='our revolutionary web3 wallet — your gateway to the decentralized world of blockchain! Say goodbye to the hassle of managing multiple accounts and welcome the simplicity of One Account for all your web3 needs.'
         icon='/images/one.svg'
         image='/images/phone-2.png'
