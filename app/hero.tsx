@@ -1,3 +1,4 @@
+import ArrowDown from '@/components/arrow-down';
 import Text from '@/components/ui/text';
 import Image from 'next/image';
 
@@ -24,6 +25,23 @@ export default function Hero() {
           <Text sm>One Account for all your web3 needs.</Text>
         </div>
       </div>
+      <ActualHero />
     </section>
   );
 }
+
+const ActualHero = () => {
+  return (
+    <div className='flex items-center justify-between'>
+      <div>
+        <Image
+          src={'/images/phone.svg'}
+          alt='launcher logo'
+          width={210}
+          height={400}
+        />
+        <ArrowDown />
+      </div>
+    </div>
+  );
+};
