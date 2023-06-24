@@ -4,13 +4,13 @@
 
 @layer base {
   body {
-    @apply text-white bg-black;
+    @apply text-white bg-black font-jura;
   }
 }
 
 @layer utilities {
   .box {
-    @apply max-w-6xl mx-auto font-jura;
+    @apply mx-auto font-jura;
   }
   .box-full {
     @apply w-full min-h-screen px-6 sm:px-20 lg:px-32 max-w-[2000px] mx-auto;

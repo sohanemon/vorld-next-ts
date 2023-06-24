@@ -28,7 +28,9 @@ export default function Cta({
         className
       )}
     >
-      <div className='flex flex-col items-start'>
+      <div
+        className={cn('flex flex-col items-start', { 'justify-self-end': rtl })}
+      >
         <Image
           src={icon}
           width={400}
