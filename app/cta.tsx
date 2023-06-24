@@ -36,7 +36,7 @@ export default function Cta({
           alt='icon'
           className='h-14 w-max'
         />
-        <Text className='max-w-md my-6 text-sm'>{desc}</Text>
+        <Text className='max-w-md my-6 text-base'>{desc}</Text>
         <CtaBtns />
       </div>
       <div className={cn('relative', { 'order-first': rtl })}>
@@ -52,7 +52,7 @@ export default function Cta({
           width={400}
           height={700}
           alt='icon'
-          className='mx-auto w-60'
+          className='w-3/4 mx-auto'
         />
       </div>
     </div>
