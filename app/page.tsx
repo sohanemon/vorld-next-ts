@@ -14,7 +14,7 @@ export default function Home() {
       <Cta
         rtl
         desc='our revolutionary web3 wallet — your gateway to the decentralized world of blockchain! Say goodbye to the hassle of managing multiple accounts and welcome the simplicity of One Account for all your web3 needs.'
-        icon='/images/one.svg'
+        icon='/images/launcher.svg'
         image='/images/eagle.svg'
       />
     </main>
