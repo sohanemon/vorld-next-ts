@@ -51,7 +51,7 @@ const ActualHero = () => {
       </div>
       <div className='flex flex-col items-center self-center'>
         <Heading>odyssey</Heading>
-        <Text className='mb-2 -mt-4'>the game</Text>
+        <Text className='mb-4 '>the game</Text>
         <Button gold>No more</Button>
       </div>
       <div className='flex flex-col '>
@@ -118,7 +118,7 @@ export const SecondHero = () => {
           Immerse yourself in a captivating storyline as you journey through
           stunning landscapes and encounter fascinating characters.
         </Text>
-        <CtaBtns center />{' '}
+        <CtaBtns center />
       </div>
     </div>
   );

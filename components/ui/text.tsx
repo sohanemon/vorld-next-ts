@@ -14,7 +14,7 @@ export default function Text({
     <p
       {...props}
       className={cn(
-        'text-white/70 text-xl font-light uppercase leading-loose',
+        'text-white/70 text-xl font-light uppercase leading-6',
         { 'text-sm': sm },
         className
       )}
