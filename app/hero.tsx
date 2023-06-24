@@ -118,7 +118,7 @@ export const SecondHero = () => {
           Immerse yourself in a captivating storyline as you journey through
           stunning landscapes and encounter fascinating characters.
         </Text>
-        <CtaBtns />{' '}
+        <CtaBtns center />{' '}
       </div>
     </div>
   );
