@@ -12,4 +12,7 @@
   .box {
     @apply max-w-6xl mx-auto font-jura;
   }
+  .box-full {
+    @apply w-full px-6 sm:px-20 lg:px-32;
+  }
 }
